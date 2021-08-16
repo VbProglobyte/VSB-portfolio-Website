@@ -1,0 +1,172 @@
+/*color variables*/
+:root {
+    --navbar: #c06262;
+    --accent: violet;
+    --copy: #f2e9e7;
+    
+}
+
+* { 
+  box-sizing: border-box;
+  }
+  /* V icon style */
+  .V {
+    height: 10%;
+    width: 10%;
+    position: relative;
+    padding: 2%;
+    border-radius: 8px;
+  }
+  /*header*/
+  .head {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* profile stand-in */
+  .profile {
+    height: 50%;
+    width: 50%;
+    margin-right:25%;
+    margin-left: 25%; 
+    border-radius: 50px;
+    vertical-align: middle;   
+    padding: 15px; 
+  }
+  .social-media {
+    width:5%;
+    height:5%;
+  }
+  
+  /* main content in the page - styles */
+  body {
+    font-family: Helvetica, Arial, sans serif;
+    color: var(--copy);
+    line-height: 200%;
+    display: flex;
+    background-image: linear-gradient(45deg, #211e1e, #000000, #211e1e);
+    padding: 5%;
+    flex-direction: column;
+  }
+  /* heading design */
+  h2, h3, h4 {
+    font-family: Arial, Helvetica, sans-serif;  
+    padding: 15px;
+    text-align: center;
+    flex-wrap: wrap;
+    color: var(--navbar);
+    font-size: 25px;
+  }
+  /* text under About me section */
+  p {
+    margin-right: 60px;
+    margin-left: 60px;
+    font-style: italic;
+    text-align: center;
+  }
+  /* gradient background */
+  .background {                
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(45deg, #211e1e, #000000, #211e1e);
+  }
+ /*NAV BAR STYLINGS */
+  nav, footer {
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    border-top: 2px solid #211e1e;  
+  }
+  /* nav text */
+  nav a {  
+      flex-direction: row;
+      display:flex;
+      text-align: center;
+      margin: 25px;
+      text-decoration: none;
+      color: var(--navbar);  
+      font-weight: bold;  
+  }
+        
+  /* PROJECT IMAGES */
+  .web-img {
+   width: 30%;
+   border-radius: 30px; 
+   padding: 15px; 
+   margin-left: 13%;
+ }
+  img:hover {
+    background-image: linear-gradient(45deg, #e97b6c, #000000,  violet);
+  }
+  nav a:hover {
+    color: var(--accent);
+    font-style: italic;
+}
+ 
+
+/*MEDIA VIEWPORTS */
+ /* mobile */
+@media screen and (max-width: 576px) {
+   * {
+     display: column;
+     text-align: center;
+     font-size:inherit;
+   }
+   .web-img {
+    margin-left: 0;
+   }
+   nav a{
+     font-size: 1rem;
+  }
+}
+/* tablet*/
+@media screen and (max-width: 768px) {
+    * {
+      display: column;
+      text-align: center;
+      font-size:inherit;
+    }
+    .web-img {
+     margin-left: 0;
+    }
+    nav a{
+      font-size: 80%;
+   }
+}
+   
+/* large screen */
+@media screen and (max-width: 980px) {
+  header {
+      padding: 0 0 10px 0;
+      justify-content: center;
+      text-align: center;
+  }
+
+  header h1 {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 10vw;
+  }
+
+  header nav {
+      justify-content: center;
+  }
+} 
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
