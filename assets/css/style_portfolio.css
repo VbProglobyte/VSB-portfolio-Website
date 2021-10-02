@@ -47,7 +47,12 @@
     color: var(--copy);
     line-height: 200%;
     display: flex;
-    background-image: linear-gradient(45deg, #211e1e, #000000, #211e1e);
+    background-image: linear-gradient(180deg,rgb(0, 0, 0), rgb(39, 39, 39));
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;  
     padding: 5%;
     flex-direction: column;
   }
@@ -68,11 +73,11 @@
     text-align: center;
   }
   /* gradient background */
-  .background {                
+  /* .background {                
     background-size: cover;
     background-position: center;
     background-image: linear-gradient(45deg, #211e1e, #000000, #211e1e);
-  }
+  } */
  /*NAV BAR STYLINGS */
   nav, footer {
     display: flex;
@@ -101,6 +106,9 @@
    margin-left: 13%;
  }
   img:hover {
+    transition: all 0.25s ease;
+    /* border: none; */
+    border: 1px solid rgb(159, 196, 255);
     background-image: linear-gradient(45deg, #e97b6c, #000000,  violet);
   }
   nav a:hover {
