@@ -21,6 +21,6 @@ Thank you for checking it out!
 
 https://vbproglobyte.github.io/VSB-portfolio-Website/
 
-![image](https://user-images.githubusercontent.com/83515305/135703240-ba3cfae7-3bbd-485b-b5f5-1fe09066334c.png)
 
 
+![screencapture-127-0-0-1-5501-index-html-2021-12-01-12_27_25](https://user-images.githubusercontent.com/83515305/144292280-ad00d344-53fe-4375-97dc-e8ef9092a9b5.png)
